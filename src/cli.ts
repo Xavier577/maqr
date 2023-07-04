@@ -103,8 +103,6 @@ export async function cli(program: Command) {
 
             const qrCode = ['data:image/webp;base64', webpBase64].join(",")
 
-            console.log(qrCode)
-
             const imgTag = `<img src="${qrCode}" alt="qr_code">`;
 
             fs.writeFileSync(outputFilePath, imgTag);
