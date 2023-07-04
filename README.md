@@ -26,20 +26,23 @@ Options:
 1. Install globally from npm
 
 ```shell
-npm install -g qrgen
+npm install -g maqr
 ```
 
 2. Help menu prompt
 
 ```shell
-qrgen --help
+maqr --help
 ```
 
 3. Generate a dummy QR code
 
 ```shell
-qrgen "Hello World"
+maqr "Hello World"
 ```
+
+# Demo
+<img src="./demos/example.gif" alt="example">
 
 ## ❤️ Found this project useful?
 If you found this project useful or you like what you see, then please consider giving it a ⭐️ on Github and sharing it with your friends via social media.

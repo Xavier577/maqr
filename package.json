@@ -1,6 +1,6 @@
 {
   "name": "maqr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A cli tool to generate qr codes",
   "author": "Joseph Tsegen <tsegstech10@gmail.com>",
   "license": "MIT",
