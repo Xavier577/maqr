@@ -1,0 +1,32 @@
+{
+  "name": "qrgen",
+  "version": "0.0.1",
+  "description": "A cli tool to generate qr codes",
+  "author": "Joseph Tsegen <tsegstech10@gmail.com>",
+  "license": "MIT",
+  "main": "./bin/index.js",
+  "bin": "./bin/index.js",
+  "repository": "git@github.com:Xavier577/qrgen.git",
+  "files": [
+    "bin"
+  ],
+  "bugs": {
+    "url": "https://github.com/Xavier577/qrgen/issues"
+  },
+  "homepage": "https://github.com/Xavier577/qrgen#readme",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/qrcode": "^1.5.1",
+    "chalk": "4.1.2",
+    "commander": "^11.0.0",
+    "qrcode": "^1.5.3"
+  }
+}
